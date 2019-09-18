@@ -9,5 +9,5 @@
 ### 使用方法：
 1. 需要富强上网，小飞机直接开全局，或者修改`request.proxies = {"https": ''}`即可，我是直接把PAC URL填进去。
 2. 将url修改成女优的Javbus的首页，如https://www.javbus.com/star/tyv 运行即可，得到番号和去掉了"-"的番号。
-3. 将其填入Everything搜索即可。
+3. 将其填入Everything搜索即可得到这个女优在你本地磁盘中的所有资源，剪切放到同一个文件夹整理。
 
