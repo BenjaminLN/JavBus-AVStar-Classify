@@ -12,5 +12,7 @@
 3. 将其填入Everything搜索即可得到这个女优在你本地磁盘中的所有资源，剪切放到同一个文件夹整理。
 
 ### 为方便使用，已打包https://github.com/BenjaminLN/AVstar-Classify/releases
+
 ![TIM图片20190919013123.png](https://i.loli.net/2019/09/19/ZjikYPrtNv64Ahd.png)
+
 ![TIM图片20190919013558.png](https://i.loli.net/2019/09/19/KwkxgM5413iyGcI.png)
