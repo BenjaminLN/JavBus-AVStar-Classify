@@ -7,5 +7,5 @@
 **每次使用python爬虫从某东瀛网站Javbus上爬取小姐姐的全部作品番号，用“ | ”间隔开，将结果用windows本地搜索之王 Everything 搜索即可。** 
 
 ### 使用方法：
-将url修改成女优的Javbus的首页，如https://www.javbus.com/star/tyv，运行即可
+将url修改成女优的Javbus的首页，如https://www.javbus.com/star/tyv 运行即可
 
