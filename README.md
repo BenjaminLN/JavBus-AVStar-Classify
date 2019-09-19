@@ -15,6 +15,6 @@
 
 ### 为方便使用，已打包https://github.com/BenjaminLN/AVstar-Classify/releases
 
-![TIM图片20190919013123.png](https://i.loli.net/2019/09/19/ZjikYPrtNv64Ahd.png)
+![TIM图片20190919013123.png](https://i.loli.net/2019/09/19/BGY5evrg1cEpVib.png)
 
 ![TIM图片20190919013558.png](https://i.loli.net/2019/09/19/KwkxgM5413iyGcI.png)
