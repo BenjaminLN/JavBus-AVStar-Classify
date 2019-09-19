@@ -3,7 +3,7 @@ import win32clipboard as wc
 import win32con
 from requests import Session
 from bs4 import BeautifulSoup
-
+from requests import utils
 # 获取剪切板内容
 def getCopy():
     wc.OpenClipboard()
@@ -17,20 +17,19 @@ def setCopy(str):
     wc.SetClipboardData(win32con.CF_UNICODETEXT, str)
     wc.CloseClipboard()
 
-
-headers = {'User-Agent': 'Mozilla/5.0'}
-url='https://www.javbus.com/star/tyv'
-
+headers = {'User-Agent': 'Mozilla/5.0',}
+cookiesDit = {'existmag':'all'}
+url='https://www.javbus.com/star/nyi'
 flag=1
-list=[]
+result_list=[]
 
 if url[-1]!='/':
     url=url+'/'
 
 while True:
     request = Session()
-    request.proxies = {"https": ""}
-    res=request.get(url+str(flag),headers=headers)
+    request.proxies = {"https": 'http://127.0.0.1:1080/pac?auth=6sZoXM8Q3lZyeXZMnVP-&t=201909182318551455'}
+    res=request.get(url+str(flag),headers=headers,cookies=cookiesDit)
     if res.status_code!=200:
         print(url + str(flag))
         break
@@ -43,11 +42,11 @@ while True:
         if (each[0]+1)%2==1:
             fanhao=str(each[1])[6:-7]
             fanhao2=''.join(fanhao.split('-'))
-            list.append(fanhao)
-            list.append(fanhao2)
+            result_list.append(fanhao)
+            result_list.append(fanhao2)
     res.close()
     flag+=1
-
-list='|'.join(list)
-print(list)
-setCopy(list)
+print('共',str(len(result_list)/2)[:-2],'部影片:')
+result_list='|'.join(result_list)
+print(result_list)
+setCopy(result_list)
