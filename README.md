@@ -6,7 +6,7 @@
 ### 原理如下：
 **每次使用Python爬虫从某东瀛网站Javbus上爬取小姐姐的全部作品番号，用 `| `间隔开，将结果用Windows本地搜索之王 Everything 搜索即可。其中设置一个cookies`cookiesDit = {'existmag':'all'}`，将搜索内容设置为`全部影片`。**
 
-### PS：只要是Javbus都能爬不管后缀是.com还是其他子站、镜像站，长得跟标准版Javbus一样就能爬（步兵板块也可以爬噢）
+### PS：只要是Javbus都能爬，不管后缀是.com还是其他子站、镜像站，长得跟标准版Javbus一样就能爬（步兵板块也可以爬噢）
 
 ### 使用方法：
 1. 需要富强上网，小飞机直接开全局，或者修改`request.proxies = {"https": ''}`即可，我是直接把PAC URL填进去。
